@@ -9,6 +9,10 @@ header {
     color: white;
     text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -17,18 +21,19 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-nav li{
-    text-align: center;
+nav li {
     padding: 10px;
 }
-
-
 
 nav a {
     color: white;
@@ -45,16 +50,19 @@ nav a:hover {
     color: white;
 }
 
-h1{
+h1 {
     color: white;
 }
 
-h2{
+h2 {
     color: black;
     text-align: center;
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 }
 
@@ -84,13 +92,28 @@ td {
     text-align: center;
     padding-top: 120px;
     text-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
 }
 
 figure {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-input, textarea {
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -98,7 +121,8 @@ input, textarea {
     outline: none;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     outline: 2px solid rgb(181, 72, 54);
 }
 
@@ -119,4 +143,8 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
